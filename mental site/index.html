@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mental Health</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YAPahvpy_Vl4eY5-N",
+      });
+   })();
+  </script>
+  </head>
+  <body onload="bodyLoaded()">
+    <div class="preloader">
+  </div>
+  <div class="scrollToTop"></div>
+    <nav>
+      <div class="container">
+        <div class="brand">
+          <div class="logo">
+            <img src="assets/file (1).png" alt="" />
+          </div>
+          <div class="responsive-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#about" id="nav-link">Overview</a></li>
+            <li><a href="#contagion" id="nav-link">Contagion</a></li>
+            <li><a href="#symptoms" id="nav-link">Symptoms</a></li>
+            <li><a href="#solution" id="nav-link">Prevention</a></li>
+            <li><button>Contact</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="starter">
+      <div class="info">
+        <h3 class="subTitle">Mental Health</h3>
+        <h1 class="title">IT'S OK TO BE NOT OK</h1>
+        <h5 class="description">
+          Mental health is a state of mental well-being that enables people to
+          cope with the stresses of life, realize their abilities, learn well
+          and work well, and contribute to their community
+        </h5>
+        <button>Connect with the Community</button>
+      </div>
+      <div class="image">
+        <img src="assets/file (1).jpg" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="image">
+        <img src="assets/2020-mental-health-plan-mangomini.jpg" alt="" />
+      </div>
+      <div class="info">
+        <h4 class="subTitle">What is Mental Health</h4>
+        <h2 class="title">Self-care tips</h2>
+        <p class="description" style="font-family: Arial, sans-serif; font-size: 16px; font-style: italic; font-weight: bold;" >
+          Self-care for mental health can include activities that fit into seven
+          pillars: mental, emotional, physical, environmental, spiritual,
+          recreational, and social. A well-balanced routine should include
+          activities from each pillar. Here are some tips for self-care:<br/>
+          1)Physical health: Exercise regularly, eat healthy meals, stay
+          hydrated, and get enough sleep.<br />
+          2)Social connections: Prioritize face-to-face time with friends and
+          family, and give to others.<br />
+          3)Relaxation: Try activities like meditation, yoga, massage, taking a
+          bath, or walking in nature.<br />
+          4)Learning: Learn new skills or hobbies, or read a book.<br />
+          5)Mindfulness: Pay attention to the present moment and practice deep
+          breathing.<br />
+          6)Stress management: Avoid drugs and alcohol, and take breaks from
+          your computer to manage eye strain.<br />
+          You can also try taking a mental health day when you feel burnt out.
+        </p>
+        
+        <button onclick="openInNewTab()">Learn More</button>
+        
+      </div>
+    </section>
+    <section class="contagion" id="contagion">
+      <div class="info">
+        <h4 class="subTitle">Mental-Health</h4>
+        <h2 class="title">Contagion</h2>
+        <p class="description">
+          Mental health can spread through social processes, such as mimicry,
+          empathy, conformity, social learning, and influence, but it's not
+          contagious like a virus
+        </p>
+      </div>
+      <div class="content">
+        <div class="cards">
+          <div class="card">
+            <img src="assets/download (2).jpg" alt="" />
+            <div class="text">
+              <h3 class="title">Emotional Contagion</h3>
+              <p class="description">
+                Emotional contagion is the process by which people "catch" feelings from others. For example, spending time with someone who is consistently anxious or depressed can increase the likelihood of experiencing similar emotions.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/122.jpg" alt="" />
+            <div class="text">
+              <h3 class="title">Behavioral Contagion</h3>
+              <p class="description">
+                This occurs when behaviors (both positive and negative) spread through groups. For example, if a person in a friend group begins engaging in self-destructive behavior, it might influence others to do the same.
+
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images (3).jpg" alt="" />
+            <div class="text">
+              <h3 class="title">Social Media Influence</h3>
+              <p class="description">
+                Social media can amplify mental health contagion by spreading emotions and behaviors rapidly across networks. Exposure to content related to mental health issues can affect users' mental states.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="symptoms" id="symptoms">
+      <div class="info">
+        <h4 class="subTitle">Mental Health</h4>
+        <h2 class="title">Symptoms</h2>
+        <p class="description">
+          Mental health symptoms can include a wide range of feelings,
+          behaviors, and changes in physical health:<br />
+          <b>Emotional</b>
+          Feeling anxious, depressed, or hopeless, having emotional outbursts,
+          or feeling guilty or worthless<br />
+          <b>Behavioral</b>
+          Withdrawing from friends or activities, engaging in high-risk
+          activities, or having unusual or odd behavior<br />
+          <b>Physical</b>
+          Changes in appetite or weight, disrupted sleep, aches, headaches, or
+          digestive problems without a clear cause, or feeling especially tired
+          or low in energy<br />
+          <b>Cognitive</b>
+          Confused thinking, reduced ability to concentrate, or illogical
+          thinking
+        </p>
+      </div>
+
+      <div class="image">
+        <img
+          src="assets/definition-of-mental-illness-4587855-v1-cd7f9f37c61c49099ac8ede282db1e73.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="solutions" id="solution">
+      <div class="info">
+        <h4 class="subTitle">Mental Health</h4>
+        <h2 class="title">What Should We Do</h2>
+        <p class="description">
+          There's no sure way to prevent mental illness. However, if you have a
+          mental illness, taking steps to control stress, to increase your
+          resilience and to boost low self-esteem may help keep your symptoms
+          under control.
+        </p>
+      </div>
+      <div class="content">
+        <div class="solution">
+          <div class="solution-info">
+            <div class="round">01</div>
+            <div class="info-container">
+              <h2 class="title">Primary prevention</h2>
+              <p class="description">
+                This focuses on stopping people from developing mental health
+                problems and promoting good mental health for all. It often
+                targets and benefits everyone in a community. Examples include
+                anti-stigma campaigns such as Mental Health Awareness Week or
+                teaching school children about emotions and mental ill health.
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/eeee.png" alt="" />
+          </div>
+        </div>
+        <div class="solution">
+          <div class="image">
+            <img src="assets/download (4).jpg" alt="" />
+          </div>
+          <div class="solution-info">
+            <div class="round">02</div>
+            <div class="info-container">
+              <h2 class="title">Secondary prevention</h2>
+              <p class="description">
+                This focuses on supporting people who are more likely to develop
+                mental health problems, either because of characteristics they
+                were born with or experiences they've had. It includes LGBTQIA+
+                people (because they have a higher chance of being bullied),
+                people who have experienced trauma, people with long-term
+                physical health conditions and victims of hate crimes for
+                example
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="solution">
+          <div class="solution-info">
+            <div class="round">03</div>
+            <div class="info-container">
+              <h2 class="title">Tertiary prevention</h2>
+              <p class="description">
+                This helps people with mental ill-health stay well and have a
+                good quality of life. It aims to reduce people’s symptoms,
+                empower them to manage their well-being and reduce the risk of
+                relapse.
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/images (1).jpg" alt="" />
+          </div>
+        </div>
+        <div class="solution">
+          <div class="image">
+            <img src="assets/images (4).jpg" alt="" />
+          </div>
+          <div class="solution-info">
+            <div class="round">04</div>
+            <div class="info-container">
+              <h2 class="title">preventive measures</h2>
+              <p class="description">
+                There are things we can all do to take care of ourselves and
+                those around us. Prevention will mean different things to
+                different people, depending on our past experiences and current
+                circumstances
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="image-container">
+        <div class="image">
+          <img src="assets/map.png" alt="" />
+        </div>
+        <div class="map-search">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="map-options">
+          <i class="fas fa-plus"></i>
+          <i class="fas fa-minus"></i>
+          <div class="arrows">
+            <i class="fas fa-sort-up"></i>
+            <i class="fas fa-sort-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="reports">
+        <div class="title-container">
+          <h2 class="title">Live Reports</h2>
+          <div class="arrows"></div>
+        </div>
+        <div class="report-container">
+          <div class="report">
+            <div class="country">
+              <img src="assets/india.png" alt="" />
+              <h3>India</h3>
+            </div>
+            <div class="numbers">
+              <h4>150million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+          <div class="report">
+            <div class="country">
+              <img src="assets/canada.png" alt="" />
+              <h3>Canada</h3>
+            </div>
+            <div class="numbers">
+              <h4>7.5million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+          <div class="report">
+            <div class="country">
+              <img src="assets/china.png" alt="" />
+              <h3>China</h3>
+            </div>
+            <div class="numbers">
+              <h4>100million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+          <div class="report">
+            <div class="country">
+              <img src="assets/united-states.png" alt="" />
+              <h3>United States</h3>
+            </div>
+            <div class="numbers">
+              <h4>47million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+          <div class="report">
+            <div class="country">
+              <img src="assets/united-kingdom.png" alt="" />
+              <h3>United Kingdom</h3>
+            </div>
+            <div class="numbers">
+              <h4>16million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+          <div class="report">
+            <div class="country">
+              <img src="assets/italy.png" alt="" />
+              <h3>Italy</h3>
+            </div>
+            <div class="numbers">
+              <h4>7million+</h4>
+              <i class="fas fa-sort-up"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="form">
+      <h1 class="title">Have Question in mind ?</h1>
+      <h1 class="title">Let us help you</h1>
+      <form class="form1" action="https://formsubmit.co/manalitrip202455@gmail.com" method="post">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" placeholder="Email" name="email" required />
+        <input type="text" placeholder="Subject" name="subject" required />
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <button type="submit">Send</button>
+      </div>
+       
+       
+    </section>
+    
+    <footer>
+      <div class="logo">
+        <img src="assets/file (1).png" alt="" />
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="">Overview</a></li>
+          <li><a href="">Symptoms</a></li>
+          <li><a href="">Prevention</a></li>
+          <li><a href="">Treatment</a></li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <i class="fab fa-instagram" onclick="openInstagram()"></i>
+        <i class="fab fa-facebook" onclick="openFacebook()"></i>
+        <i class="fab fa-twitter" onclick="openTwitter()"></i>
+        <i class="fab fa-youtube" onclick="openYoutube()"></i>
+        <i class="fab fa-linkedin" onclick="openLinkedIn()"></i>
+      </div>
+    </footer>
+    <span class="copyright">
+      2024 &copy; All rights reserved by Samyak</span>
+    </span>
+    
+     <script src="script.js"></script>         
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script>
+      function openInNewTab() {
+        window.open('https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health#:~:text=Eat%20healthy%2C%20regular%20meals%20and,alcohol%20consumption%20can%20be%20helpful.', '_blank');
+      }
+    </script>
+    <script>
+      function openInstagram() {
+        window.open('https://www.instagram.com/papasharts1892' , '_blank');
+      }
+    </script>
+     <script>
+      function openFacebook() {
+        window.open('https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F', '_blank');
+      }
+    </script>
+    <script>
+      function openTwitter() {
+        window.open('https://x.com/home?lang=en', '_blank');
+      }
+    </script>
+    <script>
+      function openYoutube() {
+        window.open('https://www.youtube.com/', '_blank');
+      }
+    </script>
+    <script>
+      function openLinkedIn() {
+        window.open('https://in.linkedin.com/','_blank');
+      }
+    </script>
+
+  </body>
+</html>
